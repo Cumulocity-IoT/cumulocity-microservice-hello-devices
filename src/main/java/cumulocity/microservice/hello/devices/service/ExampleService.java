@@ -36,7 +36,7 @@ public class ExampleService {
 		ManagedObjectCollection managedObjectsByFilter = inventoryApi.getManagedObjectsByFilter(inventoryFilter);
 		List<ManagedObjectRepresentation> allObjects = Lists.newArrayList( managedObjectsByFilter.get().allPages());
 		for (ManagedObjectRepresentation managedObjectRepresentation : allObjects) {
-			allDeviceNames.add(managedObjectRepresentation.getName());
+			allDeviceNames.add(managedObjectRepresentation.getName() + " (id: " + managedObjectRepresentation.getId().getValue() + ")");
 		}
 		return allDeviceNames;
 	}
