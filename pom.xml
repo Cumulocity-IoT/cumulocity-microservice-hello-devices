@@ -18,7 +18,7 @@
 		<spring-boot-dependencies.version>3.4.2</spring-boot-dependencies.version>
 		<c8y.version>2025.81.0</c8y.version>
 		<microservice.name>hello-devices</microservice.name>
-		<c8y.docker.skip>true</c8y.docker.skip>
+		<c8y.docker.skip>false</c8y.docker.skip>
 	</properties>
 
 	<dependencyManagement>
