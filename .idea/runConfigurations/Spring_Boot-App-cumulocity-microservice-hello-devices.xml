@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="Spring Boot-Appcumulocity-microservice-hello-devices" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="cumulocity-microservice-hello-devices" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="cumulocity.microservice.hello.devices.App" />
+    <option name="VM_PARAMETERS" value="-Dlogging.config=src/main/configuration/cumulocity-microservice-hello-devices-logging.xml" />
+    <shortenClasspath name="MANIFEST" />
+    <option name="envFilePaths">
+      <option value="$PROJECT_DIR$/.env/dev.env" />
+    </option>
+    <selectedOptions>
+      <option name="environmentVariables" />
+    </selectedOptions>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

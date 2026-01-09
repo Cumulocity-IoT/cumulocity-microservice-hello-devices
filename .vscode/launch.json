@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-App<cumulocity-microservice-hello-devices>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cumulocity.microservice.hello.devices.App",
+            "projectName": "cumulocity-microservice-hello-devices",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env/dev.env",
+            "vmArgs": "-Dlogging.config=src/main/configuration/cumulocity-microservice-hello-devices-logging.xml"
+        }
+    ]
+}
